@@ -13,7 +13,6 @@ public class Solution {
         }catch(Exception e){
             System.out.print("Wrong answer");
         }
-
         sc.close();
 
     }
