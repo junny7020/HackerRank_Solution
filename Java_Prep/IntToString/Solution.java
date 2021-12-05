@@ -9,6 +9,9 @@ public class Solution {
 
         try{
             String s = String.valueOf(n);
+            if (s == null){
+                new Exception();
+            }
             System.out.println("Good job");
         }catch(Exception e){
             System.out.print("Wrong answer");
